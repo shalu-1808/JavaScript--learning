@@ -68,3 +68,13 @@ console.log(name, price, courseInstructor, courseDescription); // this will log 
 console.log(course); // this will log the original object
 console.log(courseInstructor); // this will log the value of the courseInstructor property
 console.log(name); // this will log the value of the courseName property which is now stored in the variable name
+
+
+
+//JSON example : it has not name like object but it is a string which is used to store and exchange data between server and client. It is a lightweight data interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.
+/*{
+    "name": "Shalu",
+    "age": 25,
+    "isLoggedIn": false,
+    "email": "shalu@example.com"
+}*/
