@@ -30,14 +30,16 @@ An IIFE is a function expression that runs immediately after it is created, main
 }) ();  //IIFE , USE OF ; IS Neccessary here because second function will not run because it will not be able to assume that where to stope the code.
 
 ( function alu(){
+ //named iife
     console.log(`DB CONNECTED`)
 })();
 
 ( () => {
+    //unnamed iife
     console.log(`DB CONNECTED`)  // arrow function
 })();
 
 
 ( (name) => {
     console.log(`DB CONNECTED to ${name}`)  // arrow function
-})('Shalu')
+})('Shalu'); // passing value
